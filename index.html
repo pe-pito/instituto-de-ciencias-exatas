@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="imagens/rural_logo_branco02.png">
+<title>Instituto de Ciências Exatas - ICE</title>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <header>
+    <div class="header">
+      <div class="header-left">
+        <img src="imagens/rural_logo_branco02.png" alt="logo" width="55px">
+      </div>
+      <div class="header-right">
+
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Pesquisar..." name="pesquisar">
+          </form>
+        </div>
+
+        <a class="active" href="#home">HOME</a>
+        <div class="dropdown">
+          <a href="#instituto" class="dropbtn">INSTITUTO</a>
+          <ul class="dropdown-content">
+            <li><a href="historia.html">História</a></li>
+            <li><a href="#">Estrutura</a></li>
+            <li><a href="#">Administração</a></li>
+            <li><a href="#">Localização</a></li>
+            <li><a href="#">ICE em fotos</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="#graduacao" class="dropbtn">GRADUAÇÃO</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Física</a></li>
+            <li><a href="#">Matemática</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="#posgraduacao" class="dropbtn">PÓS-GRADUAÇÃO</a>
+          <ul class="dropdown-content">
+            <li><a href="#coisa1gdr">PPGQ</a></li>
+            <li><a href="#coisa2gdr">PPGMMC</a></li>
+            <li><a href="#coisa3">PROFMAT</a></li>
+            <li><a href="#coisa3">PROFQUI</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="#orientacao" class="dropbtn">ORIENTAÇÃO</a>
+          <ul class="dropdown-content">
+            <li><a href="#coisa1gdr">Deliberações</a></li>
+            <li><a href="#coisa2gdr">Estatuto e Regimento</a></li>
+          </ul>
+        </div>
+        <div class="fale-conosco">
+          <a href="fale-conosco.html">FALE CONOSCO</a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="titulo">
+    <h1>Institutos de Ciências Exatas - ICE</h1>
+    <h2>Campus Seropédica - UFRRJ</h2>
+  </div>
+  <div class="slider">
+    <div class="images">
+      <input type="radio" name="slide" id="img1" checked>
+      <input type="radio" name="slide" id="img2">
+      <input type="radio" name="slide" id="img3">
+      <input type="radio" name="slide" id="img4">
+
+      <img src="imagens/1.jpg" class="m1" alt="img1">
+      <img src="imagens/2.jpg" class="m2" alt="img2">
+      <img src="imagens/3.jpg" class="m3" alt="img3">
+      <img src="imagens/4.jpg" class="m4" alt="img4">
+    </div>
+    <div class="dots">
+      <label for="img1"></label>
+      <label for="img2"></label>
+      <label for="img3"></label>
+      <label for="img4"></label>
+    </div>
+  </div>
+
+  <ul class="start">
+    <li id="news">
+      <h2>Eleições no ICE – 2016-2020</h2>
+      <img width="200px" height="200px" src="imagens/rural_logo_branco02.png">
+      <p class="desc">Eleição Direta para Diretor e Vice-Diretor do Instituto de Ciências Exatas.</p><a
+        href="eleicoes.html" style="color: white;">...Leia mais</a>
+
+    </li>
+    <li id="news">
+      <h2>Normas de Solicitação de Diárias e Passagens</h2>
+      <img width="150px" height="150px" src="imagens/rural_logo_branco02.png">
+      <p class="desc">Do: Diretor do Instituto de Ciências Exatas Aos: Senhores Chefes de Departamento (DEMAT, DEQUIM,
+        DEFIS) Assunto: Normas para solicitação de...</p><a href="normas.html" style="color: white;">...Leia mais</a>
+    </li>
+    <li id="news">
+      <h2>Projetos Aprovados no DEQUIM</h2>
+      <img width="150px" height="150px" src="imagens/rural_logo_branco02.png">
+      <p class="desc">Universidade federal do Rio de Janeiro departamento de química – Instituto de ciências exatas
+        programa pós-graduação em química.</p><a href="projetos_dequim.html" style="color: white;">...Leia mais</a>
+    </li>
+  </ul>
+
+
+  <div class="more-search">
+    <form action="mais-pequisas" method="get">
+      <button type="submit">Mais pesquisas</button>
+    </form>
+  </div>
+
+  <div class="editais-titulo">
+    <h1>EDITAIS</h1>
+    <hr class="line">
+  </div>
+
+  <ul class="editais">
+    <li id="edt">
+      <p>28/02/2011 - 12:33</p>
+      <a href="prova">A prova</a>
+    </li>
+    <li id="edt">
+      <p>28/02/2011 - 12:34</p>
+      <a href="casos-especiais">Casos especiais</a>
+    </li>
+    <li id="edt">
+      <p>28/02/2011 - 12:33</p>
+      <a href="conceito">Conceito I</a>
+    </li>
+  </ul>
+
+  <div class="credits">
+    <img src="imagens/capes.jpg" alt="capes" width="200px" height="200px">
+    <img src="imagens/CNPQ.jpg" alt="cnpq" width="200px" height="200px">
+    <img src="imagens/faperj.jpg" alt="faperj" width="200px" height="200px">
+    <img src="imagens/periodicos.jpg" alt="periodicos" width="200px" height="200px">
+    <img src="imagens/mec.jpg" alt="mec" wwidth="200px" height="200px">
+  </div>
+
+  </div>
+</body>
+<footer>
+  <div class="footer-content">
+    <h1>Institutos de Ciências Exatas - ICE
+
+    </h1>
+    <h2>Endereço:</h2>
+    <p>
+    <address>Universidade Federal Rural do Rio de Janeiro
+      BR-465, Km 7 Seropédica-Rio de Janeiro
+      CEP: 23.897-000</address>
+    </p>
+    <h2>Fale conosco: <a href="fale-conosco.html" style="color: white;">contato</a></h2>
+    <p id="water-mark">© 2011-2024 - UFRRJ | Créditos</p>
+  </div>
+</footer>
